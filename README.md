@@ -1,6 +1,6 @@
 # Scapy Port Scanner
 
-A command-line tool for scanning ports.
+A command-line tool for scanning ports.  
 Python package Scapy is requried.
 
 ## Features
@@ -12,19 +12,21 @@ Python package Scapy is requried.
 - Specify timeout
 
 ## Use
+`
 BYOPS.py [-h] [--icmp] host port protocol
+`  
 
 Scan ports for a specified host 
 
-positional arguments:
-  host        IP address of host to scan 
-  port        Port number to scan
-  protocol    TCP or UDP
+positional arguments:  
+    host        IP address of host to scan   
+    port        Port number to scan  
+    protocol    TCP or UDP  
 
-optional arguments:
-  -h, --help  show this help message and exit
-  --icmp      Use ICMP ping to determine if host is up before scanning ports
-  --timeout TIMEOUT  Timeout waiting for response
+optional arguments:  
+    -h, --help  show this help message and exit  
+    --icmp      Use ICMP ping to determine if host is up before scanning ports  
+    --timeout TIMEOUT  Timeout waiting for response  
 
 Scapy requires sudo access for some functions.
 
